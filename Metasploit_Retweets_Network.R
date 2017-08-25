@@ -4,10 +4,10 @@ require(igraph)
 require(stringr)
 require(twitteR)
 require(RCurl)
-consumer_key <- '5Uo7Hm3Pw3Yp7mEJ9J9XT5K2w'
-consumer_secret <- '47e9QhfusCfxi9AMJX8Mr4lJhmAvSsFKyFR6lrrpVagOx9S38Y'
-access_token <- '2609984724-CCVaObCqEaXxDOcYJs3NK57PKStNHenpFDBpMjD'
-access_secret <- '3OQNHwLu5RPWxA1cs7hM4OG9OZ36FRWNKNmDnp3yi42pY'
+consumer_key <- '####'
+consumer_secret <- '######'
+access_token <- '#####'
+access_secret <- '#######'
 setup_twitter_oauth(consumer_key,consumer_secret,access_token,access_secret)
 # tweets in english containing "bioinformatics"
 dm_tweets = searchTwitter("Metasploit", n=500, lang="en") 
